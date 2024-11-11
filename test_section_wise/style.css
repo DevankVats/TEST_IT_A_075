@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:white;
+}
+form {
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 850px;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: rgb(23, 28, 33);
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    
+    width: 10%;
+    padding:10px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    
+}
+button:hover {
+    background-color: #52d358;
+}
